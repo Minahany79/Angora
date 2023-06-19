@@ -7,4 +7,6 @@ jobs:
      - name: display hello
        run: echo "hello mina"
      - name: display hany
-       run: echo "hello hany"
+       run: |
+         echo "hello hany"
+         echo "melad"
