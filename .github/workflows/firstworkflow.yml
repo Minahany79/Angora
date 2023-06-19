@@ -1,0 +1,10 @@
+name: mina hany
+on: [workflow_dispatch]
+jobs:
+  first-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: display hello
+       run: echo "hello mina"
+     - name: display hany
+       run: echo "hello hany"
